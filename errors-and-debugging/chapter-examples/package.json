@@ -1,0 +1,9 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "This package.json file includes all dependencies needed to run code within files contained in this directory",
+  "main": "index.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
