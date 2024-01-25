@@ -1,6 +1,9 @@
-let i = 0;
+let n = 10;
+let answer = 1;
 
-while (i < 51) {
-  console.log(i);
-  i++;
+while (n > 0) {
+   answer = answer + n;
+   n = n + 1;
 }
+
+console.log(answer);
