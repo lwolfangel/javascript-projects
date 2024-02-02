@@ -4,7 +4,7 @@ let superChimpOne = {
    mass: 9,
    age: 6,
    astronautID: 1,
-   move: function () {Math.floor(Math.random()*11)}
+   move: function () {return Math.floor(Math.random()* 11)}
 };
 
 
@@ -14,7 +14,7 @@ let salamander = {
    mass: 0.1,
    age: 5,
    astronautID: 2,
-   move: function () {Math.floor(Math.random()*11)}
+   move: function () {return Math.floor(Math.random()* 11)}
 };
 
 let superChimpTwo = {
@@ -23,7 +23,7 @@ let superChimpTwo = {
    mass: 11,
    age: 6,
    astronautID: 3,
-   move: function () {Math.floor(Math.random()*11)}
+   move: function () {return Math.floor(Math.random()* 11)}
 
 };
 
@@ -33,7 +33,7 @@ let dog = {
    mass: 14,
    age: 5,
    astronautID: 4,
-   move: function () {Math.floor(Math.random()*11)}
+   move: function () {return Math.floor(Math.random()* 11)}
 };
 
 let tardi = {
@@ -42,7 +42,7 @@ let tardi = {
    mass: 0.0000000001,
    age: 1,
    astronautID: 5, 
-   move: function () {return Math.floor(Math.random()*11)}
+   move: function () {return Math.floor(Math.random()* 11)}
 };
 
 
