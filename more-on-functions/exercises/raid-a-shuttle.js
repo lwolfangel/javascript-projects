@@ -1,4 +1,4 @@
-function checkFuel(level) {
+                                                                                                                                                                                  function checkFuel(level) {
   if (level > 100000){
     return 'green';
   } else if (level > 50000){

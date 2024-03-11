@@ -1,4 +1,4 @@
-function randomSelection(arr){
+/*function randomSelection(arr){
    let index = Math.floor(Math.random()*arr.length);
    return arr[index];
  }
@@ -9,7 +9,15 @@ function randomSelection(arr){
  
  for (i=0; i < 8; i++){
    console.log(randomSelection(happiness));
- }
+ }*/
+
+ for (i=0; i<5; i++){
+  let randNum = Math.random();
+  console.log(randNum);
+}
+
+
+
  
  //Experiment with the code above. Try to:
  //a) Print 3 random selections from each array.
